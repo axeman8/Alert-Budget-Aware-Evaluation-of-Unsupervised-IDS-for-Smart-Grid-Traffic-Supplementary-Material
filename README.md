@@ -19,10 +19,12 @@ operation and two attack families: Denial of Service (DoS) and False Data
 Injection (FDI). The preprocessed dataset is provided as 'all.parquet'.
 
 ## Repository Structure
+```
 Autoencoder_operational_IDS_eval.ipynb  # Main notebook
 all.parquet                             # Preprocessed dataset
 requirements.txt                        # Python dependencies
 README.md
+```
 
 ## Requirements
 install with:
