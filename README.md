@@ -37,5 +37,5 @@ Clone the repository and open 'Autoencoder_operational_IDS_eval.ipynb
 Run all cells top to bottom. The dataset 'all.parquet' must be in the same directory as the notebook.
 
 ```bash
-git clone https://github.com/axeman8/Deployment-Oriented-Operational-Evaluation-of-Unsupervised-IDS-Models
+git clone https://github.com/axeman8/Deployment-Oriented-Operational-Evaluation-of-Unsupervised-IDS-Models.git
 ```
