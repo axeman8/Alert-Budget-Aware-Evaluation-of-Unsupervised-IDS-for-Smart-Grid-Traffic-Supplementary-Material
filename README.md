@@ -1,4 +1,5 @@
-# Deployment-Oriented Operational Evaluation of Unsupervised IDS Models
+Alert-Budget-Aware Evaluation of Unsupervised IDS for Smart-Grid Traffic: Supplementary Material
+
 Bachelor's thesis project evaluating unsupervised anomaly detection models for 
 network intrusion detection in smart grid substations. Models are trained 
 exclusively on normal IEC 61850 traffic and evaluated under explicit false 
