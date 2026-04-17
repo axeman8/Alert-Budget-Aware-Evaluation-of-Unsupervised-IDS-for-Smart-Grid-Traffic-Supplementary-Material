@@ -1,9 +1,6 @@
 Alert-Budget-Aware Evaluation of Unsupervised IDS for Smart-Grid Traffic: Supplementary Material
 
-Bachelor's thesis project evaluating unsupervised anomaly detection models for 
-network intrusion detection in smart grid substations. Models are trained 
-exclusively on normal IEC 61850 traffic and evaluated under explicit false 
-positive rate (FPR) budgets to assess operational suitability for live deployment.
+This repository contains the reproducible artifact that was implemented in our paper titled "Alert-Budget-Aware Evaluation of Unsupervised IDS for Smart-Grid Traffic". The package is designed so that an independent party can (i) install the required dependencies from `requirements.txt`, (ii) open the evaluation notebook, and (iii) run all cells to train and evaluate the five unsupervised anomaly detection models and reproduce the results reported in the paper. The pre-extracted feature dataset `all.parquet` is included so no raw network captures are required.
 
 ## Models
 - Dense Autoencoder (Dense AE)
@@ -17,7 +14,7 @@ positive rate (FPR) budgets to assess operational suitability for live deploymen
 Network traffic was generated using the SGSim smart grid substation emulator, 
 capturing IEC 61850 GOOSE and Sampled Values (SV) protocol traffic under normal 
 operation and two attack families: Denial of Service (DoS) and False Data 
-Injection (FDI). The preprocessed dataset is provided as 'all.parquet'.
+Injection (FDI). The preprocessed dataset is provided as `all.parquet`.
 
 ## Repository Structure
 ```
