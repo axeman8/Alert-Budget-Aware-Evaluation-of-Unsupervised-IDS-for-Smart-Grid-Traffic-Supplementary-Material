@@ -24,16 +24,19 @@ requirements.txt                        # Python dependencies
 README.md
 ```
 
-## Requirements
-install with:
+## Instructions:
+
+### 1. Clone the repository
+```bash
+git clone https://github.com/axeman8/Alert-Budget-Aware-Evaluation-of-Unsupervised-IDS-for-Smart-Grid-Traffic-Supplementary-Material.git
+```
+
+### 2. Install dependencies
 ```bash
 pip install -r requirements.txt
 ```
 
-## How to run
-Clone the repository and open 'Autoencoder_operational_IDS_eval.ipynb
-Run all cells top to bottom. The dataset 'all.parquet' must be in the same directory as the notebook.
+### 3. Run the notebook
+Open `Autoencoder_operational_IDS_eval.ipynb` in Jupyter or any compatible notebook environment and run all cells. The dataset `all.parquet` must be in the same directory as the notebook.
 
-```bash
-git clone https://github.com/axeman8/Deployment-Oriented-Operational-Evaluation-of-Unsupervised-IDS-Models.git
-```
+
