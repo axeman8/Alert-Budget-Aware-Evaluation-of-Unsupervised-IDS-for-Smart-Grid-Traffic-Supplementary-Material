@@ -1,0 +1,66 @@
+{
+  "purpose": "ANUBIS camera-ready multi-seed and low-FPR extension",
+  "data": "C:\\Users\\noro-lnw\\Downloads\\camera_ready_experiment_extension\\all.parquet",
+  "rows": 500565,
+  "features": 61,
+  "train_windows": 296727,
+  "validation_windows": 47447,
+  "normal_test_windows": 89424,
+  "seeds": [
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76
+  ],
+  "budgets_fraction": [
+    0.0001,
+    0.0002,
+    0.0005,
+    0.001,
+    0.002,
+    0.005,
+    0.01,
+    0.02,
+    0.05,
+    0.1
+  ],
+  "budgets_percent": [
+    0.01,
+    0.02,
+    0.05,
+    0.1,
+    0.2,
+    0.5,
+    1.0,
+    2.0,
+    5.0,
+    10.0
+  ],
+  "reference_percentile": 95.0,
+  "window_seconds": 0.1,
+  "windows_per_day_assumption": 864000.0,
+  "empirical_validation_fpr_resolution_fraction": 2.107614812316901e-05,
+  "empirical_validation_fpr_resolution_percent": 0.002107614812316901,
+  "raw_false_triggers_per_day_at_one_validation_exceedance": 18.209791978418025,
+  "python": "3.11.9 (tags/v3.11.9:de54cf5, Apr  2 2024, 10:12:12) [MSC v.1938 64 bit (AMD64)]",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "numpy": "2.4.3",
+  "pandas": "3.0.1",
+  "scipy": "1.17.0",
+  "sklearn": "1.8.0",
+  "tensorflow": "2.20.0",
+  "tensorflow_devices": [
+    "/physical_device:CPU:0"
+  ],
+  "notes": [
+    "95% intervals are t intervals across stochastic seeds, not population-level generalisation intervals.",
+    "Raw false triggers/day assumes each positive 100 ms window is surfaced before aggregation or suppression.",
+    "No SCD/specification baseline is implemented because the supplied artifact lacks SCD and raw packet-level data."
+  ]
+}
